@@ -44,6 +44,13 @@ Abaixo está o diagrama esquemático das conexões físicas do controle remoto, 
 
 ![Esquemático do Controle](./controle-micro_bb.png)
 
+## ⚡ Esquema de Ligação - Carrinho
+
+Abaixo está o diagrama esquemático das conexões físicas do controle remoto, construído com base na imagem do Fritzing fornecida.
+
+
+![Esquemático do Carrinho](./carro_esquematico.png)
+
 ### 📌 Tabela de Conexões (Pinagem)
 
 | Componente | Pino do Componente | Pino no Arduino Mega | Observações |
