@@ -88,10 +88,11 @@ Abaixo está o diagrama esquemático das conexões físicas do controle remoto, 
 | **Joystick** | GND | GND | Aterramento |
 | **Joystick** | VRx | A9 | Eixo X Analógico |
 | **Joystick** | VRy | A10 | Eixo Y Analógico |
-| **Joystick** | SW (Botão 1) | Pino Digital 40 | Botão embutido no direcional |
+| **Joystick** | SW (Botão 0) | Pino Digital 40 | Botão embutido no direcional |
 | **Módulo Botão** | VCC | 5V | Alimentação |
 | **Módulo Botão** | GND | GND | Aterramento |
-| **Módulo Botão** | S (Sinal/Botão 2)| Pino Digital 30 | Botão para ação da garra |
+| **Módulo Botão** | S (Sinal/Botão 1)| Pino Digital 30 | Botão para ação da garra |
+| **Módulo Botão** | S (Sinal/Botão 2)| Pino Digital 26 | Botão para o LED do Código Morse |
 
 ---
 
