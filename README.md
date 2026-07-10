@@ -1,10 +1,10 @@
-# 🚗 Projeto: Carrinho Robótico Arduino com Garra e Controle Remoto TFT
+# 🚗 Projeto: Carrinho Robótico Arduino com Garra com Controle Remoto com Display TFT e Obstáculos
 
 ## 📖 Sobre o Projeto
 
 Este repositório contém a documentação e os códigos para a montagem de um carrinho robótico customizado. O projeto une a versatilidade do **Arduino** com a mecânica do **LEGO**, resultando em um veículo capaz de se movimentar em todas as direções e manipular objetos através de uma garra articulada. O objetivo é colocar em uma pista para competir com outro carrinho feito por outro grupo com obstáculos feitos por ambos os grupos.
 
-O diferencial do projeto é o seu **Controle Remoto Customizado**, que possui uma interface gráfica em um Display TFT, além de controle analógico via Joystick e botões de ação para a garra.
+O diferencial do projeto é o seu **Controle Remoto Customizado**, que possui uma interface gráfica em um Display TFT, além de controle analógico via Joystick e botões de ação para a garra, assim como um obstáculo personalizado.
 
 ## ✨ Funcionalidades
 
@@ -13,6 +13,7 @@ O diferencial do projeto é o seu **Controle Remoto Customizado**, que possui um
 * **Interface Visual:** Display TFT Shield no controle para exibir status (velocímetro, velocidade digital, bússola direcional, etc).
 * **Controle Intuitivo:** Movimentação feita por um Joystick analógico.
 * **Comunicação Sem Fio:** Conexão robusta via Bluetooth (Módulos HC-05).
+* **Obstáculo** Passagem liberada por senha em Código Morse.
 
 ---
 
@@ -33,7 +34,25 @@ O diferencial do projeto é o seu **Controle Remoto Customizado**, que possui um
 * 1x Módulo Joystick Analógico (Eixos X, Y e Botão Z/SW)
 * 1x Módulo Botão Push-button (Ação adicional)
 * 1x Módulo Bluetooth HC-05 (Configurado como Master)
+* 1x LED (Código Morse)
 * Fios Jumper e Protoboard
+
+### ⛔ Para os Obstáculos
+* 1x Sensor Fotoresistor LDR
+* 3X Resistores (220 Ohms)
+* 1x Display de 7 Segmentos
+* Fios Jumper e Protoboard
+* Papelão para construção e Papel para Tabela com Código Morse
+
+### ⛏️ Ferramentas Necessárias
+* Pistola de Cola Quente
+* Ferro de solda / Estação de Solda
+* Impressora 3D
+* Baterias e Pilhas Recarregáveis
+* Multímetro
+* Fonte de Bancada
+* Alicate Decapador
+* Chaves Fenda e Philips
 
 ---
 
@@ -48,10 +67,15 @@ Abaixo está o diagrama esquemático das conexões físicas do controle remoto, 
 
 Abaixo está o diagrama esquemático das conexões físicas do controle remoto, construído com base na imagem do Fritzing fornecida.
 
-
 ![Esquemático do Carrinho](./carro_esquematico.png)
 
-### 📌 Tabela de Conexões (Pinagem)
+## ⚡ Esquema de Ligação - Obstáculo
+
+Abaixo está o diagrama esquemático das conexões físicas do controle remoto, construído com base na imagem do Fritzing fornecida.
+
+![Esquemático do Obstáculo](./morse_esquematico.png)
+
+### 📌 Tabela de Conexões do Controle (Pinagem)
 
 | Componente | Pino do Componente | Pino no Arduino Mega | Observações |
 | :--- | :--- | :--- | :--- |
